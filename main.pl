@@ -50,7 +50,7 @@ open my $output, '>',"$testDir\\actual_addition_test_output.txt"
 $Au3-> ClipGet();#clear clip board cache.
 $Au3-> ClipGet();
 $Au3-> ClipGet();
-$Au3-> Run("$rootDir\\calc.exe");#Open Calculator
+$Au3-> Run("\"$rootDir\\calc.exe\"");#Open Calculator
 $Au3-> Sleep(500);#Give the calculator app enough time to open.
 
 while(my $operation = <$input> ) {
