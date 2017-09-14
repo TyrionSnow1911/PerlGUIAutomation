@@ -14,7 +14,7 @@ my $testDir = "$rootDir\\Test_Cases";
 open my $fileHandle, '>', "$testDir\\addition_test_input_file.txt"
 	or die "Cannot create test case file: $testDir\\addition_test_input_file.txt!";
 
-my $numOfTestCases = 100;
+my $numOfTestCases = 10;
 
 while ($numOfTestCases-- > 0) {
     my @numbers = genNumbers();
