@@ -51,7 +51,7 @@ $Au3-> ClipGet();#clear clip board cache.
 $Au3-> ClipGet();
 $Au3-> ClipGet();
 $Au3-> Run("\"$rootDir\\calc.exe\"");#Open calc.exe located in root directory.
-print "\"$rootDir\\calc.exe\"";
+//print "\"$rootDir\\calc.exe\"";
 $Au3-> Sleep(500);#Give the calculator app enough time to open.
 
 while(my $operation = <$input> ) {
